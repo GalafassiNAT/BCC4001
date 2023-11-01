@@ -10,9 +10,9 @@ int main(int argc, char** argv){
     std::cout << "Infixa: " << infixa << std::endl;
     std::cout << "Posfixa: " << posfixa << std::endl;
 
-    ExprTree arvore(posfixa);
+    ExprTree* arvore = new ExprTree(posfixa);
 
-    std::cout << "Resultado: " << arvore.avaliar() << std::endl;
+    std::cout << "Resultado: " << arvore->avaliar() << std::endl;
 
     delete[] posfixa;
 

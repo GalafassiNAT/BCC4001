@@ -59,7 +59,7 @@ void TabHashEndAberto::inserir(int chave, int valor){
     while(this->tabela[h].estado == Estado::OCUPADO){
         k++;
         h = hash(chave, k);
-        if(k == this->m)
+        if(k == this->m) 
             return;
     }
 
