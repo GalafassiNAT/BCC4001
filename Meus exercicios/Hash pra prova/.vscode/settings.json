@@ -1,5 +1,8 @@
 {
 	"files.associations": {
-		"cmath": "cpp"
+		"cmath": "cpp",
+		"xstring": "cpp",
+		"utility": "cpp",
+		"unordered_map": "cpp"
 	}
 }
